@@ -13,3 +13,15 @@ were colliding with a circle, they might be able to do that by saying the object
 x <= cos(t), y <= sin(t) for a given angle of collision t, and with this being generalized for any given shape
 in polar coordinates, the problem would then be easy, and you could generalize it further for all polygons by just
 building one adjacently to another. It also looks pretty.
+
+To control:
+
+    Mouse clicks revolving in counter-clockwise direction determine shape of polygon to transform. Click within the
+    pink until it's revolved 360 degrees (or 2π radians), and then click outside of the pink to complete the shape.
+
+Keyboard, once this is done:
+    SPACE - Resets entire shape.
+    UP - Increases iterations, unless at 25. Then it goes to 1.
+    DOWN - Decreases iterations, unless at 1. Then it goes to 25.
+    LEFT - Pause.
+    RIGHT - Resume.
