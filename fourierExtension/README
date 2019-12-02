@@ -1,0 +1,15 @@
+This is the project I created to model a generalized Fourier transformation.
+
+For the first part of this project during college as a mathematical piece, I created Transform, which only 
+showed transformations that came from regular n-sided polygons. This largely involved establishing sine and
+cosine functions and then convoluting them into a fourier transformation that all had them revolve around
+each other. For this project, I made it so that it took those sine and cosine functions for any given polygon
+that could be represented as a polar function on a two-dimensional plane, regardless of whether they were 
+regular or not.
+
+In terms of application, this could be used for finding things like the positions of electrons, modeling planets
+in a solar system, building simulations, or video games. For instance, if a person wanted to see if some object
+were colliding with a circle, they might be able to do that by saying the object's coordinates have that
+x <= cos(t), y <= sin(t) for a given angle of collision t, and with this being generalized for any given shape
+in polar coordinates, the problem would then be easy, and you could generalize it further for all polygons by just
+building one adjacently to another. It also looks pretty.
