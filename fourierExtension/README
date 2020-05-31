@@ -11,8 +11,9 @@ In terms of application, this could be used for finding things like the position
 in a solar system, building simulations, or video games. For instance, if a person wanted to see if some object
 were colliding with a circle, they might be able to do that by saying the object's coordinates have that
 x <= cos(t), y <= sin(t) for a given angle of collision t, and with this being generalized for any given shape
-in polar coordinates, the problem would then be easy, and you could generalize it further for all polygons by just
-building one adjacently to another. It also looks pretty.
+in polar coordinates, the problem of detecting collisions would then be easy, since you could generalize it further 
+for all polygons by just building one shape adjacently to another. It also looks pretty, and can be used for all
+sorts of artwork.
 
 To control:
 
